@@ -1,1 +1,1 @@
-web: gunicorn MissionRed.wsgi
+web: gunicorn AidRed.wsgi
