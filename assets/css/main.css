@@ -1933,8 +1933,7 @@ border-radius: 50%;
 		button.icon,
 		.button.icon {
 			padding-left: 1.35em;
-			top: 80px;
-		left: 100px;
+			
 		}
 
 			input[type="submit"].icon:before,
@@ -2009,9 +2008,7 @@ border-radius: 50%;
 	.button {
 		background-color: darkred;
 		color: #fff !important;
-		top: 80px;
-		right: 240px;
-
+		
 	}
 
 		input[type="submit"]:hover,
@@ -3806,7 +3803,7 @@ line-height: 116px;
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
 			font-size: 1.75em;
-			 top: 40px;
+			 top: 20px;
 			/*right:220px; */
 			
 		}
@@ -3817,14 +3814,12 @@ line-height: 116px;
 			position: absolute;
 width: 879px;
 height: 678px;
-left: 430px;
-top: -90px;
+left: 370px;
+top: -140px;
 
 		}
 
-		#banner a{
-			left:220px;
-		}
+	
 
 	@-moz-keyframes more {
 		0% {
