@@ -3477,7 +3477,7 @@ border-radius: 50%;
 
 			#header > .logo a {
 				font-size: 1.25em;
-				color: darkred;
+				color: white;
 			}
 
 				#header > .logo a:hover {
@@ -3788,10 +3788,13 @@ border-radius: 50%;
 			color: #FFF;
 
 			position: absolute;
-width: 673px;
-height: 255px;
-left: 0px;
-top: -40px;
+			
+            align-items: center;
+			width: 673px;
+            height: 255px;
+            right: -90px;
+            top: -40px;
+
 
 font-family: 'Inter';
 font-style: normal;
