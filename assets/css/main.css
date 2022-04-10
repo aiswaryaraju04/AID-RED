@@ -1873,6 +1873,7 @@ border-radius: 50%;
 		border: solid 1px;
 		margin-bottom: 2em;
 		padding: 1.5em;
+		
 	}
 
 		.box > :last-child,
@@ -1901,6 +1902,8 @@ border-radius: 50%;
 	input[type="button"],
 	button,
 	.button {
+		top: 80px;
+		left: 100px;
 		background-color: #711906
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -1918,10 +1921,10 @@ border-radius: 50%;
 		height: 2.85em;
 		line-height: 2.95em;
 		padding: 0 1.5em;
-		text-align: center;
+		text-align: left;
 		text-decoration: none;
 		white-space: nowrap;
-	`
+
 	}
 
 		input[type="submit"].icon,
@@ -1930,6 +1933,8 @@ border-radius: 50%;
 		button.icon,
 		.button.icon {
 			padding-left: 1.35em;
+			top: 80px;
+		left: 100px;
 		}
 
 			input[type="submit"].icon:before,
@@ -1965,6 +1970,7 @@ border-radius: 50%;
 		.button.big {
 			font-size: 1.35em;
 			background-color: #711906
+			
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2001,8 +2007,11 @@ border-radius: 50%;
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
+		background-color: darkred;
 		color: #fff !important;
+		top: 80px;
+		right: 240px;
+
 	}
 
 		input[type="submit"]:hover,
@@ -2982,7 +2991,7 @@ border-radius: 50%;
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #3498db;
+				background-color: darkred;
 				color: #fff !important;
 			}
 
@@ -3777,11 +3786,25 @@ border-radius: 50%;
 			font-size: 4em;
 			margin-bottom: .25em;
 			color: #FFF;
+
+			position: absolute;
+width: 673px;
+height: 255px;
+left: 0px;
+top: -40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
 		}
 
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
 			font-size: 1.75em;
+			 top: 40px;
+			/*right:220px; */
 			
 		}
 
@@ -3791,9 +3814,13 @@ border-radius: 50%;
 			position: absolute;
 width: 879px;
 height: 678px;
-left: 420px;
-top: 5px;
+left: 430px;
+top: -90px;
 
+		}
+
+		#banner a{
+			left:220px;
 		}
 
 	@-moz-keyframes more {
